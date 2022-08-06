@@ -21,7 +21,7 @@ I am Pavel Cherkashin, a **CTO**, **Product Owner**, **Junior Blockchain Enginee
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pcherkashin/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@pcherkashin)
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/5650328/pcherkashin)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)]([https://stackoverflow.com/users/19569693/pavel-cherkashin))
 
 ## Skills
 
