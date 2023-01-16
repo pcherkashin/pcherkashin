@@ -39,7 +39,7 @@ I am Pavel Cherkashin, **CTO**, **Product Owner**, **Web Developer**, **Blockcha
 ![redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white)
 ![react-router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
 ![material-ui](https://img.shields.io/badge/Material_UI-0081CB?style=flat-square&logo=mui&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-4285F4?style=flat-square&logo=tailwind)
+![Tailwind](https://img.shields.io/badge/Tailwind-4285F4?style=flat-square&logo=tailwind&logoColor=white)
 <!-- ![storybook](https://img.shields.io/badge/storybook-FF4785?style=flat-square&logo=storybook&logoColor=white) -->
 <!-- ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c) -->
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
