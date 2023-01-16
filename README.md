@@ -30,12 +30,12 @@ I am Pavel Cherkashin, **CTO**, **Product Owner**, **Web Developer**, **Blockcha
 ![typescript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 <!-- ![Rust](https://img.shields.io/badge/-Rust-black?style=flat-square&logo=Rust) -->
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
-![next](https://img.shields.io/badge/Next-000000?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
+![Node](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
+![Next](https://img.shields.io/badge/Next-000000?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
 <!-- ![Vue](https://img.shields.io/badge/-Vuejs-black?style=flat-square&logo=Vue.js) -->
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+<!-- ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python) -->
 <!-- ![PHP](https://img.shields.io/badge/-Php-black?style=flat-square&logo=Php) -->
-![react](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+<!-- ![react](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) -->
 ![redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white)
 ![react-router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
 ![material-ui](https://img.shields.io/badge/Material_UI-0081CB?style=flat-square&logo=mui&logoColor=white)
@@ -50,6 +50,7 @@ I am Pavel Cherkashin, **CTO**, **Product Owner**, **Web Developer**, **Blockcha
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)
 ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
 ![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku)
+![Vercel](https://img.shields.io/badge/-Vercel-430098?style=flat-square&logo=vercel)
 <!-- ![Amazon AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws) -->
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
