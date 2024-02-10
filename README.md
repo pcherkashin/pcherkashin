@@ -60,8 +60,10 @@ I am Pavel Cherkashin, **CTO**, **Product Owner**, **Web Developer**, **Blockcha
 
 ## 📝 Top Blog Posts
 
--   [My Top Web3 Learn Resources](https://pcherkashin.medium.com/my-top-web3-learn-resources-1e444d8da13d)
+-   [How to create a personal AI Assistant in Telegram using Make and “gpt-3.5-turbo” or “text-davinci-003” OpenAI models](https://medium.com/@pcherkashin/how-to-create-a-personal-ai-assistant-in-telegram-using-make-and-gpt-3-5-turbo-da9bb9d85a92)
 -   [FamilyNotes: how one idea creates a new habit of phone media order](https://pcherkashin.medium.com/familynotes-how-one-idea-creates-a-new-habit-of-phone-media-order-5108cb302f28)
+-   [My Top Web3 Learn Resources](https://pcherkashin.medium.com/my-top-web3-learn-resources-1e444d8da13d)
+
 
 
 view rawREADME.txt hosted with ❤ by GitHub
