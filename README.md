@@ -15,13 +15,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I am Pavel Cherkashin, **CTO**, **Product Owner**, **Web Developer**, **Blockchain Engineer**. Having 10+ years of experience in web and mobile development. To see my profile in detail, I recommend to look at my LinkedIn profile.
+I am Pavel Cherkashin, **CTO**, **Product Owner**, **Web Developer**, **Web3 Enthusiast**. Having 10+ years of experience in web and mobile development. To see my profile in detail, I recommend to look at my LinkedIn profile.
 
-[![Twitter](https://img.shields.io/badge/twitter-%230077B5.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/pcherkashinx/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pcherkashin/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@pcherkashin)
+[![Twitter](https://img.shields.io/badge/twitter-%230077B5.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/pcherkashinx/)
+<!--
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/19569693/pavel-cherkashin)
-
+-->
 <a href="https://app.daily.dev/pcherkashin"><img src="https://api.daily.dev/devcards/617f2011e1c1499fae6474c1fe86e26a.png?r=g1k" width="400" alt="Pavel Cherkashin's Dev Card"/></a>
 
 ## Skills
