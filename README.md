@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-👋 Hi there, I'm Pavel Cherkashin - a seasoned CTO, Product Owner, and Web Developer with a keen interest in Web3 technologies. With over a decade of experience in the web and mobile development landscapes, I've dedicated myself to building innovative solutions that push the boundaries of digital experiences.
+👋 I'm Pavel Cherkashin - a seasoned CTO, Product Owner, and Web Developer with a keen interest in Web3 technologies. With over a decade of experience in the web and mobile development landscapes, I've dedicated myself to building innovative solutions that push the boundaries of digital experiences.
 
 🌐 My journey has been marked by a deep commitment to technology and product development, where I've had the privilege of leading projects that bridge the gap between complex technical challenges and impactful user outcomes.
 
