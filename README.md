@@ -15,13 +15,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-👋 I'm Pavel Cherkashin - a seasoned CTO, Product Owner, and Web Developer with a keen interest in Web3 technologies. With over a decade of experience in the web and mobile development landscapes, I've dedicated myself to building innovative solutions that push the boundaries of digital experiences.
+👋 Hi, I'm Pavel Cherkashin - a dedicated Frontend Developer with a deep passion for creating immersive web experiences through cutting-edge web technologies. With over a decade of experience in the tech industry, I specialize in developing responsive, user-centric websites and applications.
 
-🌐 My journey has been marked by a deep commitment to technology and product development, where I've had the privilege of leading projects that bridge the gap between complex technical challenges and impactful user outcomes.
+🌐 Throughout my journey, I've committed to mastering the nuances of frontend development, from crafting pixel-perfect UIs to optimizing performance for scalable web solutions. My expertise spans a wide array of technologies including HTML, CSS, JavaScript, and modern frameworks like React and Next.js.
 
-💡 Whether it's through crafting scalable web applications or exploring the potential of decentralized technologies, I'm always on the lookout for the next challenge that demands creative problem-solving.
+💡 Driven by the thrill of innovation and problem-solving, I'm on the lookout for opportunities to bring creative visions to life on the web. My aim is to contribute to projects that leverage my technical skills and collaborative spirit to make a meaningful impact.
 
-🔗 To dive deeper into my professional journey and the projects I've been a part of, feel free to explore my LinkedIn profile. There, you'll find a detailed account of my experiences, contributions, and the values that drive my work in the tech industry.
+🔗 For more insights into my professional background and the projects I've been involved with, please visit my LinkedIn profile. There you'll find detailed information about my approach to development and the values that guide my work.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pcherkashin/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@pcherkashin)
