@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 👋 Hi, I'm Pavel Cherkashin - a dedicated CTO/Software Engineer with a deep passion for creating immersive web experiences through cutting-edge web technologies. With over a decade of experience in the tech industry, I specialize in developing responsive, user-centric web and mobile applications.
 
-🌐 Throughout my journey, I've committed to mastering the nuances of frontend development, from crafting pixel-perfect UIs to optimizing performance for scalable web solutions. My expertise spans a wide array of technologies including JavaScript, React and Next.js, Node.js, Flutter, Nuxt, Node, MySQL, PostgreSQL, MongoDB, Dicker, etc.
+🌐 Throughout my journey, I've committed to mastering the nuances of frontend development, from crafting pixel-perfect UIs to optimizing performance for scalable web solutions. My expertise spans a wide array of technologies including JavaScript, React and Next.js, Node.js, Flutter, Nuxt, Node, MySQL, PostgreSQL, MongoDB, Docker, etc.
 
 💡 Driven by the thrill of innovation and problem-solving, I'm on the lookout for opportunities to bring creative visions to life on the web. My aim is to contribute to projects that leverage my technical skills and collaborative spirit to make a meaningful impact.
 
