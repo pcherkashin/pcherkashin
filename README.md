@@ -15,13 +15,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-👋 Hi, I'm Pavel Cherkashin - a dedicated CTO/Software Engineer with a deep passion for creating immersive web experiences through cutting-edge web technologies. With over a decade of experience in the tech industry, I specialize in developing responsive, user-centric web and mobile applications.
+# 👋 Pavel Cherkashin
 
-🌐 Throughout my journey, I've committed to mastering the nuances of frontend development, from crafting pixel-perfect UIs to optimizing performance for scalable web solutions. My expertise spans a wide array of technologies including JavaScript, React and Next.js, Node.js, Flutter, Nuxt, Node, MySQL, PostgreSQL, MongoDB, Docker, etc.
+## AI Consultant | Former CTO | Full-Stack Engineer
 
-💡 Driven by the thrill of innovation and problem-solving, I'm on the lookout for opportunities to bring creative visions to life on the web. My aim is to contribute to projects that leverage my technical skills and collaborative spirit to make a meaningful impact.
+Building the bridge between AI innovation and business impact.
 
-🔗 For more insights into my professional background and the projects I've been involved with, please visit my LinkedIn profile. There you'll find detailed information about my approach to development and the values that guide my work.
+**Current Focus:** Helping UK businesses implement practical AI solutions—from custom AI agents to intelligent automation workflows.
+
+**Background:** 8+ years leading technical teams and building scalable web/mobile applications. Recently certified in AI by Anthropic.
+
+### 🛠️ Tech Arsenal
+AI/ML: Claude, OpenAI, LangChain, Python Frontend: React, Next.js, Vue, Nuxt, TypeScript Backend: Node.js, Express, REST/GraphQL APIs Mobile: Flutter, React Native Data: PostgreSQL, MongoDB, MySQL DevOps: Docker, Git, CI/CD
+
+*Turning AI complexity into business simplicity, one project at a time.*
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pcherkashin/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@pcherkashin)
