@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 # 👋 Pavel Cherkashin
 
-## AI Consultant | Former CTO | Full-Stack Engineer
+## AI Consultant | CTO | Full-Stack Engineer
 
 Building the bridge between AI innovation and business impact.
 
