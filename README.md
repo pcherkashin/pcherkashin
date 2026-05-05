@@ -62,19 +62,6 @@ philosophy:  Ship the proof, not the deck.
 
 ---
 
-### GitHub at a glance
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=pcherkashin&show_icons=true&hide_border=true&bg_color=0A0A0B&title_color=7C3AED&icon_color=06B6D4&text_color=E5E7EB&hide=contribs">
-  <img src="https://github-readme-stats.vercel.app/api?username=pcherkashin&show_icons=true&hide_border=true&title_color=7C3AED&icon_color=06B6D4&hide=contribs" height="160" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=pcherkashin&layout=compact&hide_border=true&bg_color=0A0A0B&title_color=7C3AED&text_color=E5E7EB&langs_count=8">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pcherkashin&layout=compact&hide_border=true&title_color=7C3AED&langs_count=8" height="160" alt="Top languages">
-</picture>
-
----
-
 ### Let's talk
 
 Staring down a legacy migration? Need production-grade AI agents shipped this quarter? Want a senior engineer who codes, reviews, and ships?
