@@ -1,83 +1,84 @@
-### Hi there 👋
+<div align="center">
+  <a href="https://www.pcherkashin.dev">
+    <img src="https://readme-typing-svg.demolab.com/?lines=AI-First+Engineering+Consultant;Multi-agent+orchestration+%26+legacy+modernization;Claude+Code+%C2%B7+Next.js+16+%C2%B7+Bun+1.x;94%25+cost+reduction+%C2%B7+7%C3%97+faster+delivery&font=Inter&weight=500&size=22&duration=2800&pause=900&color=7C3AED&background=00000000&center=true&width=720&height=40" alt="Pavel Cherkashin — AI-First Engineering Consultant" />
+  </a>
+</div>
 
-<!--
-**pcherkashin/pcherkashin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">👋 Pavel Cherkashin</h1>
 
-Here are some ideas to get you started:
+<p align="center"><em>AI-First Engineering consultant — I help companies migrate legacy systems, automate workflows, and build intelligent products with multi-agent orchestration.</em></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://www.pcherkashin.dev"><img src="https://img.shields.io/badge/Portfolio-pcherkashin.dev-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://calendly.com/pcherkashin/30"><img src="https://img.shields.io/badge/Book_a_call-30_min-06B6D4?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a call"></a>
+  <a href="https://www.linkedin.com/in/pcherkashin/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:pcherkashin@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-# 👋 Pavel Cherkashin
+---
 
-## AI Consultant | CTO | Full-Stack Engineer
+### `whoami`
 
-Building the bridge between AI innovation and business impact.
+```yaml
+role:        AI-First Engineering Consultant
+based_in:    United Kingdom
+practice:    Multi-agent orchestration · Legacy modernization · Workflow automation
+industries:  Professional services · Healthcare · SaaS · Hospitality · Enterprise
+shipping:    Production-grade systems with Claude Code, Next.js 16 and Bun
+philosophy:  Ship the proof, not the deck.
+```
 
-**Current Focus:** Helping UK businesses implement practical AI solutions—from custom AI agents to intelligent automation workflows.
+---
 
-**Background:** 8+ years leading technical teams and building scalable web/mobile applications. Recently certified in AI by Anthropic.
+### Featured work
 
-### 🛠️ Tech Arsenal
-AI/ML: Claude, OpenAI, LangChain, Python Frontend: React, Next.js, Vue, Nuxt, TypeScript Backend: Node.js, Express, REST/GraphQL APIs Mobile: Flutter, React Native Data: PostgreSQL, MongoDB, MySQL DevOps: Docker, Git, CI/CD
+| Case study | Outcome | Stack |
+|---|---|---|
+| **[Enterprise UI Migration →](https://www.pcherkashin.dev/cases/enterprise-ui-migration)** | 22 days · **94% cost reduction** · **7× faster** · 715 TSX files across 16 apps + 28 libs | Claude Code · React · shadcn/ui · Storybook · Playwright |
+| **[Premium Advisory Rebuild →](https://www.pcherkashin.dev/cases/premium-advisory-website)** | Lighthouse **50 → 96** · SEO **83 → 100** · A11y **65 → 98** · CLS **0.39 → 0** | Next.js · WCAG AAA · Structured Data · Vercel |
+| **[Legacy Modernization →](https://www.pcherkashin.dev/cases/legacy-modernization)** | 2M LOC analysed · **−60%** code · 3 months · **−75%** bugs · **10× deploys** | Multi-agent · Claude · TypeScript · Kubernetes |
+| **[AI Workflow Automation →](https://www.pcherkashin.dev/cases/ai-workflow-automation)** | **−80%** manual work · **99.2%** accuracy · **$2M/yr** saved · **50× faster** | Claude · LangChain · FastAPI · Redis |
+| **[Enterprise AI Platform →](https://www.pcherkashin.dev/cases/enterprise-ai-platform)** | 500+ users · **+40%** dev velocity · **−70%** time-to-AI-feature · 10× throughput | Claude · Next.js · Node.js · PostgreSQL |
 
-*Turning AI complexity into business simplicity, one project at a time.*
+---
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pcherkashin/)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@pcherkashin)
-[![Twitter](https://img.shields.io/badge/twitter-%230077B5.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/pcherkashinx/)
-<!--
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/19569693/pavel-cherkashin)
--->
-<a href="https://app.daily.dev/pcherkashin"><img src="https://api.daily.dev/devcards/617f2011e1c1499fae6474c1fe86e26a.png?r=g1k" width="400" alt="Pavel Cherkashin's Dev Card"/></a>
+### Tech I orchestrate
 
-## Skills
+**AI & agents** — Claude Code · Anthropic SDK · OpenAI · Vercel AI SDK v5 · LangChain · MCP · 8-agent topologies with LLM-as-judge
+**Frontend** — Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui · Motion · TanStack Query
+**Backend** — Node.js · Bun · Python · FastAPI · Express · Better Auth · JWT
+**Data** — PostgreSQL (self-hosted) · Prisma 7 · Redis (Upstash) · Cloudflare R2
+**Infra** — Vercel · Hetzner · Docker · Cloudflare · Turborepo · Nx
+**Quality** — Biome · Vitest · Playwright · Husky · GitHub Actions
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![typescript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-<!-- ![Rust](https://img.shields.io/badge/-Rust-black?style=flat-square&logo=Rust) -->
-![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Node](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
-![Next](https://img.shields.io/badge/Next-000000?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
-<!-- ![Vue](https://img.shields.io/badge/-Vuejs-black?style=flat-square&logo=Vue.js) -->
-<!-- ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python) -->
-<!-- ![PHP](https://img.shields.io/badge/-Php-black?style=flat-square&logo=Php) -->
-<!-- ![react](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) -->
-![redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white)
-![react-router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
-![material-ui](https://img.shields.io/badge/Material_UI-0081CB?style=flat-square&logo=mui&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-4285F4?style=flat-square&logo=tailwind&logoColor=white)
-<!-- ![storybook](https://img.shields.io/badge/storybook-FF4785?style=flat-square&logo=storybook&logoColor=white) -->
-<!-- ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c) -->
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
-![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
-![Redis](https://img.shields.io/badge/-Redis-black?style=flat-square&logo=Redis)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)
-![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
-![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku)
-![Vercel](https://img.shields.io/badge/-Vercel-430098?style=flat-square&logo=vercel)
-<!-- ![Amazon AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws) -->
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
-![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab)
-![BitBucket](https://img.shields.io/badge/-BitBucket-darkblue?style=flat-square&logo=bitbucket)
-![jquery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+---
 
-## 📝 Top Blog Posts
+### On the workbench
 
--   [How to create a personal AI Assistant in Telegram using Make and “gpt-3.5-turbo” or “text-davinci-003” OpenAI models](https://medium.com/@pcherkashin/how-to-create-a-personal-ai-assistant-in-telegram-using-make-and-gpt-3-5-turbo-da9bb9d85a92)
--   [FamilyNotes: how one idea creates a new habit of phone media order](https://pcherkashin.medium.com/familynotes-how-one-idea-creates-a-new-habit-of-phone-media-order-5108cb302f28)
--   [My Top Web3 Learn Resources](https://pcherkashin.medium.com/my-top-web3-learn-resources-1e444d8da13d)
+- ⚡ **[Adaptive Intelligence Interface](https://www.pcherkashin.dev)** — persona-adaptive portfolio: same UI, different copy generated per visitor (CTO / Engineer / Investor / 5-year-old). Next 16 Cache Components + View Transitions + streaming AI.
+- 🏭 **Multi-agent enterprise research hub** — 8-agent topology (Orchestrator + 7 specialists + LLM-as-judge gate ≥ 14/20) for industrial R&D and competitive intelligence.
+- 🌍 **Supply-chain intelligence engine** — 7-agent orchestration mapping global trade flows with live MapLibre maps and React Flow chain graphs.
+- 🏥 **Clinical AI platform** — schema-isolated PII anonymisation pipeline with magic-link SSO, built for sensitive healthcare data workflows.
 
+---
 
+### GitHub at a glance
 
-view rawREADME.txt hosted with ❤ by GitHub
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=pcherkashin&show_icons=true&hide_border=true&bg_color=0A0A0B&title_color=7C3AED&icon_color=06B6D4&text_color=E5E7EB&hide=contribs">
+  <img src="https://github-readme-stats.vercel.app/api?username=pcherkashin&show_icons=true&hide_border=true&title_color=7C3AED&icon_color=06B6D4&hide=contribs" height="160" alt="GitHub stats">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=pcherkashin&layout=compact&hide_border=true&bg_color=0A0A0B&title_color=7C3AED&text_color=E5E7EB&langs_count=8">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pcherkashin&layout=compact&hide_border=true&title_color=7C3AED&langs_count=8" height="160" alt="Top languages">
+</picture>
+
+---
+
+### Let's talk
+
+Staring down a legacy migration? Need production-grade AI agents shipped this quarter? Want a senior engineer who codes, reviews, and ships?
+
+→ **[Book a 30-min call](https://calendly.com/pcherkashin/30)** · free, no pitch deck.
+
+<sub>🌐 <a href="https://www.pcherkashin.dev">pcherkashin.dev</a> · ✉️ <a href="mailto:pcherkashin@gmail.com">pcherkashin@gmail.com</a> · 💼 <a href="https://www.linkedin.com/in/pcherkashin/">LinkedIn</a> · ✍️ <a href="https://medium.com/@pcherkashin">Medium</a> · 🐦 <a href="https://www.twitter.com/pcherkashinx/">Twitter</a></sub>
