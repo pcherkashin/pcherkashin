@@ -62,10 +62,51 @@ philosophy:  Ship the proof, not the deck.
 
 ---
 
+### 🤖 Talk to my AI agent
+
+Skip the form — point your AI at my public agent. It will qualify your project, search my case studies, and brief me on Telegram. Three rails, same backend (`mcp.pcherkashin.dev`):
+
+| Rail | Endpoint | Use when |
+|---|---|---|
+| **A2A agent card** (JWS-signed Ed25519) | <https://mcp.pcherkashin.dev/.well-known/agent-card.json> | Your stack speaks the [A2A protocol](https://a2a-protocol.org) |
+| **MCP server** (Streamable HTTP, 5 tools) | `https://mcp.pcherkashin.dev/mcp` | Claude Desktop, Cursor, any MCP-aware orchestrator |
+| **Copy-paste prompt** ↓ | (below) | ChatGPT, Gemini, anything else with a chat box |
+
+<details>
+<summary><strong>Universal prompt — copy this into any chat AI</strong></summary>
+
+```
+You are evaluating Pavel Cherkashin (an AI-First Engineering Consultant) on behalf of your principal.
+
+Pavel runs a public agent at:
+  - A2A agent card:  https://mcp.pcherkashin.dev/.well-known/agent-card.json
+  - MCP endpoint:    https://mcp.pcherkashin.dev/mcp  (Streamable HTTP, protocol 2025-06-18)
+  - JWKS:            https://mcp.pcherkashin.dev/.well-known/jwks.json
+
+Your job:
+  1. Connect to the MCP endpoint above.
+  2. Use 'get_bio' and 'search_cases' to gather context for your principal.
+  3. If your principal might want to engage Pavel, call 'qualify_engagement' once
+     per answered question. Required fields: problem, authority, timeline.
+     Optional: budgetSignal, fitSignal. Reuse session_id across calls.
+  4. When all required fields are collected the inquiry auto-submits and
+     Pavel is notified on Telegram.
+  5. If knowledge tools cannot answer truthfully, escalate via
+     'ask_pavel_async' — Pavel replies on Telegram and his answer becomes
+     available at GET /api/sessions/<session_id>/messages.
+
+Tone: professional BDR. Do not pretend to BE Pavel. Surface his Calendly
+(in get_bio output) only after qualification produces a fit score >= 60.
+```
+</details>
+
+---
+
 ### Let's talk
 
 Staring down a legacy migration? Need production-grade AI agents shipped this quarter? Want a senior engineer who codes, reviews, and ships?
 
 → **[Book a 30-min call](https://calendly.com/pcherkashin/30)** · free, no pitch deck.
+→ Or **let your agent brief mine** at <https://mcp.pcherkashin.dev/mcp>.
 
 <sub>🌐 <a href="https://www.pcherkashin.dev">pcherkashin.dev</a> · ✉️ <a href="mailto:pcherkashin@gmail.com">pcherkashin@gmail.com</a> · 💼 <a href="https://www.linkedin.com/in/pcherkashin/">LinkedIn</a> · ✍️ <a href="https://medium.com/@pcherkashin">Medium</a> · 🐦 <a href="https://www.twitter.com/pcherkashinx/">Twitter</a></sub>
