@@ -62,42 +62,51 @@ philosophy:  Ship the proof, not the deck.
 
 ---
 
-### 🤖 Talk to my AI agent
+### 🤖 Brief me via your AI
 
-Skip the form — point your AI at my public agent. It will qualify your project, search my case studies, and brief me on Telegram. Three rails, same backend (`mcp.pcherkashin.dev`):
+Skip the form — your AI agent qualifies your project, searches my case studies, and pings me on Telegram for one-tap approval. Three rails, same backend at `mcp.pcherkashin.dev`:
 
-| Rail | Endpoint | Use when |
+| Rail | Endpoint | When to use |
 |---|---|---|
-| **A2A agent card** (JWS-signed Ed25519) | <https://mcp.pcherkashin.dev/.well-known/agent-card.json> | Your stack speaks the [A2A protocol](https://a2a-protocol.org) |
-| **MCP server** (Streamable HTTP, 5 tools) | `https://mcp.pcherkashin.dev/mcp` | Claude Desktop, Cursor, any MCP-aware orchestrator |
-| **Copy-paste prompt** ↓ | (below) | ChatGPT, Gemini, anything else with a chat box |
+| **A · REST API** (recommended) | `POST https://mcp.pcherkashin.dev/api/v1/<tool>` | Any AI with `fetch` / `curl` / `requests` — ChatGPT code interpreter, Claude Code, Cursor, opencode |
+| **B · MCP server** | `https://mcp.pcherkashin.dev/mcp` (Streamable HTTP) | Claude Desktop / Cursor / Codex with MCP support already configured |
+| **C · Magic link** | `https://mcp.pcherkashin.dev/inquiry?problem=…&authority=…&timeline=…` | When your AI can't reach the network — it generates a URL you click once |
+
+Tools (same on Rail A and Rail B): `get_bio` · `search_cases` · `qualify_engagement` · `book_call` · `ask_pavel_async`.
+Polling endpoint for Pavel's free-text reply: `GET /api/v1/sessions/<sessionId>/messages?since=<ISO>`.
 
 <details>
-<summary><strong>Universal prompt — copy this into any chat AI</strong></summary>
+<summary><strong>Universal prompt — paste into any chat AI</strong></summary>
 
 ```
 You are evaluating Pavel Cherkashin (an AI-First Engineering Consultant) on behalf of your principal.
 
-Pavel runs a public agent at:
-  - A2A agent card:  https://mcp.pcherkashin.dev/.well-known/agent-card.json
-  - MCP endpoint:    https://mcp.pcherkashin.dev/mcp  (Streamable HTTP, protocol 2025-06-18)
-  - JWKS:            https://mcp.pcherkashin.dev/.well-known/jwks.json
+Pavel runs a public BDR agent at https://mcp.pcherkashin.dev — three rails, pick the one your tools support:
 
-Your job:
-  1. Connect to the MCP endpoint above.
-  2. Use 'get_bio' and 'search_cases' to gather context for your principal.
-  3. If your principal might want to engage Pavel, call 'qualify_engagement'
-     once per answered question. Required across the session: problem,
-     authority, timeline. Optional: budgetSignal, fitSignal. Reuse session_id
-     across calls. Tool returns a 0–100 score.
-  4. When required fields are gathered the inquiry auto-submits and Pavel is
-     pinged on Telegram. He approves / rejects / sends Calendly with one tap.
-  5. If qualification produces a score >= 60, call 'book_call' (the canonical
-     source for the Calendly URL — do NOT assemble it from get_bio output).
-  6. If knowledge tools cannot answer truthfully, escalate via 'ask_pavel_async'.
-     Pavel replies on Telegram. Poll
-     GET https://mcp.pcherkashin.dev/api/sessions/<sessionId>/messages?since=<ISO>
-     at ~30s cadence to retrieve his answer.
+═══ RAIL A — REST API (recommended for most agents) ═══
+Plain HTTP POST + JSON. Works with fetch / curl / requests / WebFetch / bash. No MCP client needed.
+  POST https://mcp.pcherkashin.dev/api/v1/get_bio
+  POST https://mcp.pcherkashin.dev/api/v1/search_cases       body: { query, limit? }
+  POST https://mcp.pcherkashin.dev/api/v1/qualify_engagement body: { sessionId?, problem?, authority?, timeline?, budgetSignal?, fitSignal? }
+  POST https://mcp.pcherkashin.dev/api/v1/book_call
+  POST https://mcp.pcherkashin.dev/api/v1/ask_pavel_async    body: { sessionId, question }
+  GET  https://mcp.pcherkashin.dev/api/v1/sessions/<sessionId>/messages?since=<ISO>
+
+═══ RAIL B — MCP server (only if your client has MCP support) ═══
+Streamable HTTP, protocol 2025-06-18: https://mcp.pcherkashin.dev/mcp
+Same 5 tools, same semantics. Better for streaming + tool discovery.
+
+═══ RAIL C — Magic-link form (when your tools cannot reach the network) ═══
+Generate a pre-filled URL and ask your principal to click once:
+  https://mcp.pcherkashin.dev/inquiry?problem=<URL-encoded>&authority=<...>&timeline=<...>&budgetSignal=<...>&fitSignal=<...>
+They review, click Send, Pavel is pinged on Telegram. Use this when Rail A and Rail B both fail.
+
+═══ Workflow ═══
+1. Use get_bio + search_cases to gather context for your principal.
+2. If your principal might want to engage Pavel, accumulate BANT-lite via repeated qualify_engagement calls. Required across the session: problem, authority, timeline. Optional: budgetSignal, fitSignal. Reuse sessionId across calls. Tool returns a 0–100 score.
+3. When required fields are gathered the inquiry auto-submits and Pavel is pinged on Telegram. He approves / rejects / sends Calendly with one tap.
+4. If qualification produces a score >= 60, call book_call (canonical Calendly source — do NOT assemble URL from get_bio output).
+5. If knowledge tools cannot answer truthfully, escalate via ask_pavel_async. Pavel replies on Telegram. Poll the sessions endpoint at ~30s cadence to retrieve his answer.
 
 Tone: professional BDR. Do not pretend to BE Pavel. Score scale is 0–100.
 ```
@@ -110,6 +119,6 @@ Tone: professional BDR. Do not pretend to BE Pavel. Score scale is 0–100.
 Staring down a legacy migration? Need production-grade AI agents shipped this quarter? Want a senior engineer who codes, reviews, and ships?
 
 → **[Book a 30-min call](https://calendly.com/pcherkashin/30)** · free, no pitch deck.
-→ Or **let your agent brief mine** at <https://mcp.pcherkashin.dev/mcp>.
+→ Or **let your agent brief mine** — three rails at <https://mcp.pcherkashin.dev>.
 
 <sub>🌐 <a href="https://www.pcherkashin.dev">pcherkashin.dev</a> · ✉️ <a href="mailto:pcherkashin@gmail.com">pcherkashin@gmail.com</a> · 💼 <a href="https://www.linkedin.com/in/pcherkashin/">LinkedIn</a> · ✍️ <a href="https://medium.com/@pcherkashin">Medium</a> · 🐦 <a href="https://www.twitter.com/pcherkashinx/">Twitter</a></sub>
