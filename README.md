@@ -86,17 +86,20 @@ Pavel runs a public agent at:
 Your job:
   1. Connect to the MCP endpoint above.
   2. Use 'get_bio' and 'search_cases' to gather context for your principal.
-  3. If your principal might want to engage Pavel, call 'qualify_engagement' once
-     per answered question. Required fields: problem, authority, timeline.
-     Optional: budgetSignal, fitSignal. Reuse session_id across calls.
-  4. When all required fields are collected the inquiry auto-submits and
-     Pavel is notified on Telegram.
-  5. If knowledge tools cannot answer truthfully, escalate via
-     'ask_pavel_async' — Pavel replies on Telegram and his answer becomes
-     available at GET /api/sessions/<session_id>/messages.
+  3. If your principal might want to engage Pavel, call 'qualify_engagement'
+     once per answered question. Required across the session: problem,
+     authority, timeline. Optional: budgetSignal, fitSignal. Reuse session_id
+     across calls. Tool returns a 0–100 score.
+  4. When required fields are gathered the inquiry auto-submits and Pavel is
+     pinged on Telegram. He approves / rejects / sends Calendly with one tap.
+  5. If qualification produces a score >= 60, call 'book_call' (the canonical
+     source for the Calendly URL — do NOT assemble it from get_bio output).
+  6. If knowledge tools cannot answer truthfully, escalate via 'ask_pavel_async'.
+     Pavel replies on Telegram. Poll
+     GET https://mcp.pcherkashin.dev/api/sessions/<sessionId>/messages?since=<ISO>
+     at ~30s cadence to retrieve his answer.
 
-Tone: professional BDR. Do not pretend to BE Pavel. Surface his Calendly
-(in get_bio output) only after qualification produces a fit score >= 60.
+Tone: professional BDR. Do not pretend to BE Pavel. Score scale is 0–100.
 ```
 </details>
 
